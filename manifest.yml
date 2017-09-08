@@ -1,0 +1,10 @@
+---
+applications:
+  - name: ms-operations-history
+    buildpack: java_buildpack
+    path: target/ms-operations-history-0.0.1.jar
+    memory: 512M
+    timeout : 180
+env:
+   SPRING_PROFILES_ACTIVE : cloud  
+   
